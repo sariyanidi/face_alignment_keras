@@ -2,7 +2,7 @@ Download the file data_fa.tar.gz from the following link into this directory: ht
 
 Then, untar the data_fa.tar.gz file by running the following line of code within this directory:
 ```
-$ tar -xvf data_fa.gz 
+$ tar -xvf data_fa.tar.gz 
 ```
 
 Note that this dataset is originally published in http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm, we simply (i) resize the faces and (ii) adapt the labels to our method (i.e., our labels are heatmaps rather than x,y coordinates).
